@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Form Đăng Ký</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+<div class="container mt-5">
+    <div class="card shadow-sm" style="max-width: 400px; margin: auto;">
+        <!-- Phần tiêu đề + nút đóng -->
+        <div class="card-header bg-white border-bottom">
+            <div class="d-flex align-items-center">
+                <h5 class="fw-bold text-dark m-0">Đăng ký thành viên</h5>
+                <div class="ms-auto">
+                    <button type="button" class="btn-close" aria-label="Close"></button>
+                </div>
+            </div>
+        </div>
+        
+        <div class="card-body">
+            <form>
+                <!-- Họ và Tên -->
+                <div class="mb-3">
+                    <label for="name" class="form-label">Họ và Tên</label>
+                    <input type="text" class="form-control" id="name" placeholder="Nhập họ và tên">
+                </div>
+
+                <!-- Email -->
+                <div class="mb-3">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="email" placeholder="Nhập email">
+                </div>
+
+                <!-- Mật khẩu -->
+                <div class="mb-3">
+                    <label for="password" class="form-label">Mật khẩu</label>
+                    <input type="password" class="form-control" id="password" placeholder="Nhập mật khẩu">
+                </div>
+
+                <!-- Nút Đăng Ký -->
+                <button type="submit" class="btn btn-success btn-sm px-4">Đăng ký</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
