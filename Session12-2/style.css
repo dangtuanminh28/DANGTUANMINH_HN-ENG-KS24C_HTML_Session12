@@ -1,0 +1,15 @@
+body {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.d-flex {
+    gap: 10px;
+}
+
+.section {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #f8f9fa;
+    border-radius: 5px;
+}

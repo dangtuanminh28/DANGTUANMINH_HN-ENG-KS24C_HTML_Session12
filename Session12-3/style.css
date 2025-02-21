@@ -1,0 +1,21 @@
+body {
+    background-color: #f8f9fa;
+    font-family: Arial, sans-serif;
+}
+
+.form-container {
+    max-width: 500px;
+    margin: auto;
+}
+
+.card-header {
+    padding: 15px;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.btn-success {
+    width: 100%;
+}

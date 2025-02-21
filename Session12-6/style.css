@@ -1,0 +1,29 @@
+body {
+    background-color: #f8f9fa;
+    font-family: Arial, sans-serif;
+}
+
+h2 {
+    color: #343a40;
+}
+
+.package-card {
+    border-radius: 8px;
+    padding: 20px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.package-card:hover {
+    transform: scale(1.05);
+}
+
+.card {
+    background-color: unset !important;
+}
+.featured {
+    background-color: #ffc107 !important;
+}
+
+.btn-primary {
+    font-weight: bold;
+}
